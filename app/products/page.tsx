@@ -14,29 +14,8 @@ function truncate(str: string, n: number) {
 function Products() {
     const productsList = use(getProducts());
     return (
-        // <div className='container mx-auto'>
-        //     <div className='columns-4'>
-        //         {
-        //             productsList.map((product: any) => {
-        //                 return (
-        //                     <Link key={product.id} href={`/products/${product.id}`}>
-        //                         <div className='border border-2 mt-3 p-6 bg-cyan-500 hover:bg-cyan-600'>
-        //                             <Image
-        //                                 src={product.image}
-        //                                 width={500}
-        //                                 height={500}
-        //                                 alt="Picture of the product"
-        //                             />
-        //                             <p className='text-2xl'>{truncate(product.title, 60)}</p>
-        //                         </div>
-        //                     </Link>
-        //                 )
-        //             })
-        //         }
-        //     </div>
-        // </div>
         <div className="bg-white">
-            <div className="mx-auto max-w-2xl py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
+            <div className="container mx-auto max-w-2xl py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
                 <div className="grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
                     {
                         productsList.map((product: any) => {

@@ -589,10 +589,6 @@ video {
   margin-left: 0.75rem !important;
 }
 
-.mt-3 {
-  margin-top: 0.75rem !important;
-}
-
 .mt-4 {
   margin-top: 1rem !important;
 }
@@ -633,32 +629,6 @@ video {
   height: 2rem !important;
 }
 
-.h-full {
-  height: 100% !important;
-}
-
-.h-fit {
-  height: -moz-fit-content !important;
-  height: fit-content !important;
-}
-
-.h-min {
-  height: -moz-min-content !important;
-  height: min-content !important;
-}
-
-.h-screen {
-  height: 100vh !important;
-}
-
-.h-3\/6 {
-  height: 50% !important;
-}
-
-.h-1\/2 {
-  height: 50% !important;
-}
-
 .h-52 {
   height: 13rem !important;
 }
@@ -675,10 +645,6 @@ video {
   width: 100% !important;
 }
 
-.w-32 {
-  width: 8rem !important;
-}
-
 .w-52 {
   width: 13rem !important;
 }
@@ -687,21 +653,12 @@ video {
   max-width: 42rem !important;
 }
 
-.max-w-0 {
-  max-width: 0rem !important;
-}
-
 .max-w-none {
   max-width: none !important;
 }
 
 .flex-1 {
   flex: 1 1 0% !important;
-}
-
-.columns-4 {
-  -moz-columns: 4 !important;
-       columns: 4 !important;
 }
 
 .grid-cols-1 {
@@ -757,14 +714,6 @@ video {
   border-radius: 0.5rem !important;
 }
 
-.border {
-  border-width: 1px !important;
-}
-
-.border-2 {
-  border-width: 2px !important;
-}
-
 .bg-gray-800 {
   --tw-bg-opacity: 1 !important;
   background-color: rgb(31 41 55 / var(--tw-bg-opacity)) !important;
@@ -773,11 +722,6 @@ video {
 .bg-gray-900 {
   --tw-bg-opacity: 1 !important;
   background-color: rgb(17 24 39 / var(--tw-bg-opacity)) !important;
-}
-
-.bg-cyan-500 {
-  --tw-bg-opacity: 1 !important;
-  background-color: rgb(6 182 212 / var(--tw-bg-opacity)) !important;
 }
 
 .bg-white {
@@ -795,11 +739,6 @@ video {
      object-fit: contain !important;
 }
 
-.object-cover {
-  -o-object-fit: cover !important;
-     object-fit: cover !important;
-}
-
 .object-center {
   -o-object-position: center !important;
      object-position: center !important;
@@ -811,10 +750,6 @@ video {
 
 .p-1 {
   padding: 0.25rem !important;
-}
-
-.p-6 {
-  padding: 1.5rem !important;
 }
 
 .px-3 {
@@ -854,11 +789,6 @@ video {
 .text-sm {
   font-size: 0.875rem !important;
   line-height: 1.25rem !important;
-}
-
-.text-2xl {
-  font-size: 1.5rem !important;
-  line-height: 2rem !important;
 }
 
 .text-lg {
@@ -903,11 +833,6 @@ video {
 .hover\:bg-gray-700:hover {
   --tw-bg-opacity: 1 !important;
   background-color: rgb(55 65 81 / var(--tw-bg-opacity)) !important;
-}
-
-.hover\:bg-cyan-600:hover {
-  --tw-bg-opacity: 1 !important;
-  background-color: rgb(8 145 178 / var(--tw-bg-opacity)) !important;
 }
 
 .hover\:text-white:hover {
